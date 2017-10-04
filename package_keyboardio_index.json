@@ -12,16 +12,15 @@
         {
           "name": "keyboardio",
           "architecture": "avr",
-          "version": "1.2.0",
+          "version": "1.1.4",
           "category": "Contributed",
           "help": {
-            "online": "https://github.com/Keyboardio"
+            "online": "https://community.keyboard.io"
           },
-          "url": "https://github.com/keyboardio/Arduino-Boards/archive/master.zip",
-           "xxx-todo-url": "https://github.com/Keyboardio/Arduino-Boards/blob/master/download_package/Arduino-Boards-v1.0.0.zip?raw=true",
-          "archiveFileName": "Arduino-Boards-v1.0.0.zip",
-          "xxx-todo-checksum": "SHA-256:XXXTBDXXX",
-          "xxx-todo-size": "1899",
+          "url": "https://github.com/keyboardio/Arduino-Boards/archive/v1.14.zip",
+          "archiveFileName": "Arduino-Boards-v1.14.zip",
+          "checksum": "SHA-256:fd0017ea2950f6fb3afb46a503f0193c75111d68dfc95fa2775fbd63f0cf4528",
+          "size": "1008405",
           "boards": [
             {"name": "Keyboardio Model 01"}
           ],
