@@ -35,7 +35,7 @@
                      "version" : "6.0.1-arduino5"
                   }
                ],
-               "url" : "https://raw.githubusercontent.com/keyboardio/boardsmanager/builds/master/Keyboardio-Model01-Hardware-v1.14.tgz",
+               "url" : "https://raw.githubusercontent.com/keyboardio/boardsmanager/master/builds/Keyboardio-Model01-Hardware-v1.14.tgz",
                "version" : "1.1.4"
             }
          ],
