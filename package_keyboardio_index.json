@@ -1,44 +1,46 @@
 {
-  "packages": [
-    {
-      "name": "Keyboardio",
-      "maintainer": "Keyboardio",
-      "websiteURL": "http://keyboard.io/",
-      "email": "",
-      "help": {
-        "online": "http://keyboard.io"
-      },
-      "platforms": [
-        {
-          "name": "keyboardio",
-          "architecture": "avr",
-          "version": "1.1.4",
-          "category": "Contributed",
-          "help": {
-            "online": "https://community.keyboard.io"
-          },
-          "url": "https://github.com/keyboardio/Arduino-Boards/archive/v1.14.zip",
-          "archiveFileName": "Arduino-Boards-v1.14.zip",
-          "checksum": "SHA-256:fd0017ea2950f6fb3afb46a503f0193c75111d68dfc95fa2775fbd63f0cf4528",
-          "size": "1008405",
-          "boards": [
-            {"name": "Keyboardio Model 01"}
-          ],
-          "toolsDependencies": [
+   "packages" : [
+      {
+         "email" : "",
+         "help" : {
+            "online" : "http://keyboard.io"
+         },
+         "maintainer" : "Keyboardio",
+         "websiteURL" : "http://keyboard.io/",
+         "tools" : [],
+         "name" : "Keyboardio",
+         "platforms" : [
             {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
+               "architecture" : "avr",
+               "boards" : [
+                  {
+                     "name" : "Keyboardio Model 01"
+                  }
+               ],
+               "size" : 5330144,
+               "url" : "https://raw.githubusercontent.com/keyboardio/boardsmanager/builds/master/Keyboardio-Model01-Hardware-v1.14.tgz",
+               "help" : {
+                  "online" : "https://community.keyboard.io"
+               },
+               "name" : "keyboardio",
+               "checksum" : "SHA-256:f98527e9c4ae12d381f452f9c944b3c4e3d142f0c0c9ad93b3cc9b230c7b132b",
+               "archiveFileName" : "Keyboardio-Model01-Hardware-v1.14.tgz",
+               "category" : "Contributed",
+               "toolsDependencies" : [
+                  {
+                     "name" : "avr-gcc",
+                     "version" : "4.8.1-arduino5",
+                     "packager" : "arduino"
+                  },
+                  {
+                     "name" : "avrdude",
+                     "packager" : "arduino",
+                     "version" : "6.0.1-arduino5"
+                  }
+               ],
+               "version" : "1.1.4"
             }
-          ]
-        }
-      ],
-      "tools": []
-    }
-  ]
+         ]
+      }
+   ]
 }
