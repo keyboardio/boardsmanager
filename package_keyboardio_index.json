@@ -6,7 +6,7 @@
             "online" : "http://keyboard.io"
          },
          "maintainer" : "Keyboardio",
-         "name" : "Keyboardio",
+         "name" : "keyboardio",
          "platforms" : [
             {
                "architecture" : "avr",
