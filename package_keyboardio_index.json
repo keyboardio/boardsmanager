@@ -97,6 +97,36 @@
                ],
                "url" : "https://raw.githubusercontent.com/keyboardio/boardsmanager/master/builds/Keyboardio-Model01-Hardware-v1.23.tar.bz2",
                "version" : "1.23"
+            },
+            {
+               "architecture" : "avr",
+               "archiveFileName" : "Keyboardio-Model01-Hardware-v1.90-beta.tar.bz2",
+               "boards" : [
+                  {
+                     "name" : "Keyboardio Model 01"
+                  }
+               ],
+               "category" : "Contributed",
+               "checksum" : "SHA-256:04420bdb71686226279e8a7785b67f42002c0952c032aa873a99a2b32d961a53",
+               "help" : {
+                  "online" : "https://community.keyboard.io"
+               },
+               "name" : "keyboardio",
+               "size" : 2198886,
+               "toolsDependencies" : [
+                  {
+                     "name" : "avr-gcc",
+                     "packager" : "arduino",
+                     "version" : "4.8.1-arduino5"
+                  },
+                  {
+                     "name" : "avrdude",
+                     "packager" : "arduino",
+                     "version" : "6.0.1-arduino5"
+                  }
+               ],
+               "url" : "https://raw.githubusercontent.com/keyboardio/boardsmanager/master/builds/Keyboardio-Model01-Hardware-v1.90-beta.tar.bz2",
+               "version" : "1.90-beta"
             }
          ],
          "tools" : [],
