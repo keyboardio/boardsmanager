@@ -290,12 +290,12 @@
                   }
                ],
                "category" : "Contributed",
-               "checksum" : "SHA-256:",
+               "checksum" : "SHA-256:d0578e833e2126030c07e2671f9d5549dbb66341b3ec8f3250c7c1253c0a1d5b",
                "help" : {
                   "online" : "https://community.keyboard.io"
                },
                "name" : "keyboardio",
-               "size" : 3533461,
+               "size" : 3534165,
                "toolsDependencies" : [
                   {
                      "name" : "avr-gcc",
