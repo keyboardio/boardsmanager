@@ -376,6 +376,39 @@
                ],
                "url" : "https://raw.githubusercontent.com/keyboardio/boardsmanager/master/builds/Kaleidoscope-v1.99-beta.tar.bz2",
                "version" : "1.99-beta"
+            },
+            {
+               "architecture" : "avr",
+               "archiveFileName" : "Kaleidoscope-v1.99.1.tar.bz2",
+               "boards" : [
+                  {
+                     "name" : "Keyboardio Model 01"
+                  },
+                  {
+                     "name" : "Keyboardio Atreus"
+                  }
+               ],
+               "category" : "Contributed",
+               "checksum" : "SHA-256:86db0263dd5eb33cd5a7d3760c70d7fd963d88b3a2bb7e3269102b013718dbb0",
+               "help" : {
+                  "online" : "https://community.keyboard.io"
+               },
+               "name" : "keyboardio",
+               "size" : 12054256,
+               "toolsDependencies" : [
+                  {
+                     "name" : "avr-gcc",
+                     "packager" : "arduino",
+                     "version" : "7.3.0-atmel3.6.1-arduino5"
+                  },
+                  {
+                     "name" : "avrdude",
+                     "packager" : "arduino",
+                     "version" : "6.3.0-arduino17"
+                  }
+               ],
+               "url" : "https://raw.githubusercontent.com/keyboardio/boardsmanager/master/builds/Kaleidoscope-v1.99.1.tar.bz2",
+               "version" : "1.99.1"
             }
          ],
          "tools" : [],
