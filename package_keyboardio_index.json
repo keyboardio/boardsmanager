@@ -473,7 +473,7 @@
                      "version" : "6.3.0-arduino17"
                   }
                ],
-               "url" : "https://github.com/keyboardio/boardsmanager/master/builds//Kaleidoscope-1.99.2.tar.bz2",
+               "url" : "https://raw.githubusercontent.com/keyboardio/boardsmanager/master/builds/Kaleidoscope-1.99.2.tar.bz2",
                "version" : "1.99.2"
             }
          ],
