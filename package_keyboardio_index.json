@@ -38,7 +38,7 @@
                      "version" : "6.3.0-arduino17"
                   }
                ],
-               "url" : "https://github.com/keyboardio/boardsmanager/raw/master/builds/Kaleidoscope-1.99.3.tar.bz2",
+               "url" : "https://github.com/keyboardio/boardsmanager/raw/main/builds/Kaleidoscope-1.99.3.tar.bz2",
                "version" : "1.99.3"
             },
             {
@@ -73,7 +73,7 @@
                      "version" : "0.10.0-arduino1"
                   }
                ],
-               "url" : "https://github.com/keyboardio/boardsmanager/raw/master/builds/Kaleidoscope-gd32-1.99.3.tar.bz2",
+               "url" : "https://github.com/keyboardio/boardsmanager/raw/main/builds/Kaleidoscope-gd32-1.99.3.tar.bz2",
                "version" : "1.99.3"
             }
          ],
