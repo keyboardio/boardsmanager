@@ -42,39 +42,6 @@
                "version" : "1.99.3"
             },
             {
-               "architecture" : "gd32",
-               "archiveFileName" : "ArduinoCore-GD32-Keyboardio-main.zip",
-               "boards" : [
-                  {
-                     "name" : "Keyboardio Model 100"
-                  }
-               ],
-               "category" : "Contributed",
-               "help" : {
-                  "online" : ""
-               },
-               "name" : "Keyboardio GD32 Keyboards",
-               "toolsDependencies" : [
-                  {
-                     "name" : "xpack-arm-none-eabi-gcc",
-                     "packager" : "keyboardio",
-                     "version" : "9.3.1-1.3"
-                  },
-                  {
-                     "name" : "xpack-openocd",
-                     "packager" : "keyboardio",
-                     "version" : "0.11.0-1"
-                  },
-                  {
-                     "name" : "dfu-util",
-                     "packager" : "keyboardio",
-                     "version" : "0.10.0-arduino1"
-                  }
-               ],
-               "url" : "https://github.com/Keyboardio/ArduinoCore-GD32-Keyboardio/archive/refs/heads/main.zip",
-               "version" : "0.0.0"
-            },
-            {
                "architecture" : "avr",
                "archiveFileName" : "Kaleidoscope-avr-1.99.3.tar.bz2",
                "boards" : [
