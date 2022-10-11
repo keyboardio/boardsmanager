@@ -279,6 +279,74 @@
                ],
                "url" : "https://github.com/keyboardio/boardsmanager/raw/main/builds/Kaleidoscope-gd32-1.99.6.tar.bz2",
                "version" : "1.99.6"
+            },
+            {
+               "architecture" : "avr",
+               "archiveFileName" : "Kaleidoscope-avr-1.99.7.tar.bz2",
+               "boards" : [
+                  {
+                     "name" : "Keyboardio Model 01"
+                  },
+                  {
+                     "name" : "Keyboardio Atreus"
+                  }
+               ],
+               "category" : "Contributed",
+               "checksum" : "SHA-256:c3727d57368c4ab41126099888e3308c7a7676e4dea9548e7a51dcabf32c32eb",
+               "help" : {
+                  "online" : "https://community.keyboard.io"
+               },
+               "name" : "Kaleidoscope keyboards",
+               "size" : 733803,
+               "toolsDependencies" : [
+                  {
+                     "name" : "avr-gcc",
+                     "packager" : "arduino",
+                     "version" : "7.3.0-atmel3.6.1-arduino7"
+                  },
+                  {
+                     "name" : "avrdude",
+                     "packager" : "arduino",
+                     "version" : "6.3.0-arduino17"
+                  }
+               ],
+               "url" : "https://github.com/keyboardio/boardsmanager/raw/main/builds/Kaleidoscope-avr-1.99.7.tar.bz2",
+               "version" : "1.99.7"
+            },
+            {
+               "architecture" : "gd32",
+               "archiveFileName" : "Kaleidoscope-gd32-1.99.7.tar.bz2",
+               "boards" : [
+                  {
+                     "name" : "Keyboardio Model 100"
+                  }
+               ],
+               "category" : "Contributed",
+               "checksum" : "SHA-256:3a8b0b0176ac2190293a72f71815579f026789268bb0149768d53c9b8afe654a",
+               "help" : {
+                  "online" : "https://community.keyboard.io"
+               },
+               "name" : "Kaleidoscope Keyboards (GD32)",
+               "size" : 8142031,
+               "toolsDependencies" : [
+                  {
+                     "name" : "xpack-arm-none-eabi-gcc",
+                     "packager" : "keyboardio",
+                     "version" : "9.3.1-1.3"
+                  },
+                  {
+                     "name" : "xpack-openocd",
+                     "packager" : "keyboardio",
+                     "version" : "0.11.0-1"
+                  },
+                  {
+                     "name" : "dfu-util",
+                     "packager" : "keyboardio",
+                     "version" : "0.11.0-arduino3"
+                  }
+               ],
+               "url" : "https://github.com/keyboardio/boardsmanager/raw/main/builds/Kaleidoscope-gd32-1.99.7.tar.bz2",
+               "version" : "1.99.7"
             }
          ],
          "tools" : [
@@ -426,47 +494,47 @@
                ],
                "version" : "0.10.0-arduino1"
             },
-	            {
-          "name": "dfu-util",
-          "version": "0.11.0-arduino3",
-          "systems": [
             {
-              "host": "i386-apple-darwin11",
-              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-osx.tar.bz2",
-              "archiveFileName": "dfu-util-0.11.0-arduino3-osx.tar.bz2",
-              "size": "78971",
-              "checksum": "SHA-256:75a396bbb919157f7a38250869ad11028c456af2d9852ae85dde05ba657d50d3"
-            },
-            {
-              "host": "arm-linux-gnueabihf",
-              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-arm.tar.bz2",
-              "archiveFileName": "dfu-util-0.11.0-arduino3-arm.tar.bz2",
-              "size": "288723",
-              "checksum": "SHA-256:c7772deb103514e08ad8b70752e59aa5db3c6ace96fc4ea6bf85f07e824e7cd6"
-            },
-            {
-              "host": "x86_64-linux-gnu",
-              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-linux64.tar.bz2",
-              "archiveFileName": "dfu-util-0.11.0-arduino3-linux64.tar.bz2",
-              "size": "81861",
-              "checksum": "SHA-256:4989f33f2e7b9da2973b397b127843478967d6846f4b763823cce342aa34dd0f"
-            },
-            {
-              "host": "i686-linux-gnu",
-              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-linux32.tar.bz2",
-              "archiveFileName": "dfu-util-0.11.0-arduino3-linux32.tar.bz2",
-              "size": "81885",
-              "checksum": "SHA-256:c6d96acef36773044056be4a592c65416ca831a68f6f36c13f5de730948c870b"
-            },
-            {
-              "host": "i686-mingw32",
-              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-windows.tar.bz2",
-              "archiveFileName": "dfu-util-0.11.0-arduino3-windows.tar.bz2",
-              "size": "635831",
-              "checksum": "SHA-256:f951ffce899108096eb61ccc892b7ba80cae4314ef5463e75e0e1acab21d05b6"
+               "name" : "dfu-util",
+               "systems" : [
+                  {
+                     "archiveFileName" : "dfu-util-0.11.0-arduino3-osx.tar.bz2",
+                     "checksum" : "SHA-256:75a396bbb919157f7a38250869ad11028c456af2d9852ae85dde05ba657d50d3",
+                     "host" : "i386-apple-darwin11",
+                     "size" : "78971",
+                     "url" : "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-osx.tar.bz2"
+                  },
+                  {
+                     "archiveFileName" : "dfu-util-0.11.0-arduino3-arm.tar.bz2",
+                     "checksum" : "SHA-256:c7772deb103514e08ad8b70752e59aa5db3c6ace96fc4ea6bf85f07e824e7cd6",
+                     "host" : "arm-linux-gnueabihf",
+                     "size" : "288723",
+                     "url" : "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-arm.tar.bz2"
+                  },
+                  {
+                     "archiveFileName" : "dfu-util-0.11.0-arduino3-linux64.tar.bz2",
+                     "checksum" : "SHA-256:4989f33f2e7b9da2973b397b127843478967d6846f4b763823cce342aa34dd0f",
+                     "host" : "x86_64-linux-gnu",
+                     "size" : "81861",
+                     "url" : "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-linux64.tar.bz2"
+                  },
+                  {
+                     "archiveFileName" : "dfu-util-0.11.0-arduino3-linux32.tar.bz2",
+                     "checksum" : "SHA-256:c6d96acef36773044056be4a592c65416ca831a68f6f36c13f5de730948c870b",
+                     "host" : "i686-linux-gnu",
+                     "size" : "81885",
+                     "url" : "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-linux32.tar.bz2"
+                  },
+                  {
+                     "archiveFileName" : "dfu-util-0.11.0-arduino3-windows.tar.bz2",
+                     "checksum" : "SHA-256:f951ffce899108096eb61ccc892b7ba80cae4314ef5463e75e0e1acab21d05b6",
+                     "host" : "i686-mingw32",
+                     "size" : "635831",
+                     "url" : "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-windows.tar.bz2"
+                  }
+               ],
+               "version" : "0.11.0-arduino3"
             }
-          ]
-        }
          ],
          "websiteURL" : "http://keyboard.io/"
       }
