@@ -499,37 +499,44 @@
                "systems" : [
                   {
                      "archiveFileName" : "dfu-util-0.11.0-arduino3-osx.tar.bz2",
-                     "checksum" : "SHA-256:75a396bbb919157f7a38250869ad11028c456af2d9852ae85dde05ba657d50d3",
+                     "checksum" : "SHA-256:81d88dae0ed068a7bdde14d7cd56c9b953a3aea87aaaf4bcbaf022ba7df47ad5",
                      "host" : "i386-apple-darwin11",
-                     "size" : "78971",
+                     "size" : "79057",
                      "url" : "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-osx.tar.bz2"
                   },
                   {
                      "archiveFileName" : "dfu-util-0.11.0-arduino3-arm.tar.bz2",
-                     "checksum" : "SHA-256:c7772deb103514e08ad8b70752e59aa5db3c6ace96fc4ea6bf85f07e824e7cd6",
+                     "checksum" : "SHA-256:27fb1fc8ba19df08f1805236083c7199f59bdaaacacceead98fee0e817e48425",
                      "host" : "arm-linux-gnueabihf",
-                     "size" : "288723",
+                     "size" : "241168",
                      "url" : "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-arm.tar.bz2"
                   },
                   {
+                     "archiveFileName" : "dfu-util-0.11.0-arduino3-arm64.tar.bz2",
+                     "checksum" : "SHA-256:5f212524b6338d06bf833a2375f1012740e0a359c81ad1ff728222cc93a28586",
+                     "host" : "aarch64-linux-gnu",
+                     "size" : "282961",
+                     "url" : "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-arm64.tar.bz2"
+                  },
+                  {
                      "archiveFileName" : "dfu-util-0.11.0-arduino3-linux64.tar.bz2",
-                     "checksum" : "SHA-256:4989f33f2e7b9da2973b397b127843478967d6846f4b763823cce342aa34dd0f",
+                     "checksum" : "SHA-256:6a72e62546d4ba1c0c05c00a1e4863b23ab99e1224e6325b458207822fbf0da4",
                      "host" : "x86_64-linux-gnu",
-                     "size" : "81861",
+                     "size" : "78422",
                      "url" : "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-linux64.tar.bz2"
                   },
                   {
                      "archiveFileName" : "dfu-util-0.11.0-arduino3-linux32.tar.bz2",
-                     "checksum" : "SHA-256:c6d96acef36773044056be4a592c65416ca831a68f6f36c13f5de730948c870b",
+                     "checksum" : "SHA-256:d6e5bd3d1861ac01dc85e85ae44667346a18f56537a95fe63e9dc71b1adeac99",
                      "host" : "i686-linux-gnu",
-                     "size" : "81885",
+                     "size" : "82825",
                      "url" : "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-linux32.tar.bz2"
                   },
                   {
                      "archiveFileName" : "dfu-util-0.11.0-arduino3-windows.tar.bz2",
-                     "checksum" : "SHA-256:f951ffce899108096eb61ccc892b7ba80cae4314ef5463e75e0e1acab21d05b6",
+                     "checksum" : "SHA-256:7dccfadc260c5b13f7267fcd9ed610571bc74f6f64a85c20541c9ae48a1833b3",
                      "host" : "i686-mingw32",
-                     "size" : "635831",
+                     "size" : "635719",
                      "url" : "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino3-windows.tar.bz2"
                   }
                ],
